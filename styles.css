@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+#mainMenu, #credits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+}
+
+#startButton, #creditsButton, #backButton {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #00FA9A;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#startButton:hover, #creditsButton:hover, #backButton:hover {
+    background-color: #008B45;
+}
+
+#highScoreDisplay {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#credits h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+#credits ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+#credits ul li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+#canvas1 {
+    background: #000;
+    display: block;
+    margin: 0 auto;
+}
+
+.greenButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #00FA9A; /* Warna hijau */
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.greenButton:hover {
+    background-color: #008B45; /* Warna hijau lebih gelap saat hover */
+}
+

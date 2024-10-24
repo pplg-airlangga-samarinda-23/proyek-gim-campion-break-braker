@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kredit Permainan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="credits">
+        <h2>Kredit Permainan</h2>
+        <p>Permainan ini dikembangkan oleh:</p>
+        <ul>
+            <li><strong>Ketua:</strong> Rayhan </li>
+            <li><strong>Anggota:</strong> Vinda </li>
+            <li><strong>Anggota:</strong> Bilcis </li>
+            <li><strong>Tester:</strong> Galang </li>
+        </ul>
+        <p>Terima kasih telah memainkan permainan ini! Kami harap anda menikmatinya.</p>
+        <button id="backButton" class="greenButton">Kembali ke Menu</button>
+    </div>
+    <script>
+        // Mengarahkan kembali ke index.html saat tombol "Kembali ke Menu" diklik
+        document.getElementById("backButton").addEventListener("click", function() {
+            window.location.href = "index.html";
+        });
+    </script>
+</body>
+</html>

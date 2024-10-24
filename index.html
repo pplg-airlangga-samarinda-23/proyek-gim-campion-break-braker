@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Break Out</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="mainMenu">
+        <h1>Permainan Break Out</h1>
+        <button id="startButton">Mulai Permainan</button>
+        <p id="highScoreDisplay">Skor Tertinggi: 0</p>
+        <button id="creditsButton">Kredit</button>
+    </div>
+    <canvas id="canvas1" width="730" height="600" style="display:none;"></canvas>
+    <script>
+        // Mengarahkan ke halaman credit.html saat tombol "Kredit" diklik
+        document.getElementById("creditsButton").addEventListener("click", function() {
+            window.location.href = "credit.html";
+        });
+    </script>
+    <script src="script.js"></script> 
+</body>
+</html>
